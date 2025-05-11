@@ -27,7 +27,7 @@ p, h2 {
 }
 
 button {
-  background-color: #E65000;
+  background-color: rgb(241, 99, 48);
   width: 80%;
   height: 35px;
   display: block;
@@ -41,7 +41,7 @@ button {
 }
 
 .new-price {
-  color: #E65000;
+  color: rgb(241, 99, 48);
   font-size: 40px;
 }
 
@@ -55,4 +55,9 @@ header, article {
 
 .old-price, .new-price {
   font-family: Geneva, serif;
+}
+
+button:hover {
+  background-color: #eb8a56;
+  font-size: 25px;
 }
